@@ -9,16 +9,37 @@
 
 ### 🏠 [Homepage](https://github.com/Tatvam/IOT_project)
 
+## To Install npm in ubuntu 
+
+sudo apt-get install npm
+sudo apt-get install node
+
 ## Install
 
 ```sh
-npm install
+npm install 
+
+(this will install all the required node dependencies)
 ```
 
-## Run tests
+## How to run
 
 ```sh
-npm run test
+compile node file 
+node publisher.js
+node receiver.js
+
+Open file index.html
+```
+
+## Description 
+
+```sh
+
+This project provides a mqtt based javascript implementation of a temperature recording and plotting.
+The publisher uses a random number generator to publish temperature data
+The subscriber get this data from mqtt borker and create a express server where all the data is stored. This data is then used to created an extended plot.
+
 ```
 
 ## Author
@@ -26,6 +47,9 @@ npm run test
 👤 **Tatvam Dadheech, Rahul Kumar, Pullak Barik**
 
 * Github: [@Tatvam](https://github.com/Tatvam)
+* Github: [@Preetham](https://github.com/rk36)
+* Github: [@Pullak](https://github.com/TipsbyPullak)
+* Github: [@Rahul](https://github.com/methuku123)
 
 ## Show your support
 
